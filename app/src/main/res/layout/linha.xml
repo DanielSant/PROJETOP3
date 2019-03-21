@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/RoxoEscuro"
+        android:gravity="center"
+        android:text="@string/informa_es_da_viagem"
+        android:textColor="@color/RoxoClaro"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Origem_viagem_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="12sp"
+                android:text="@string/origem_da_viagem"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Destino_viagem_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/destino_da_viagem"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Numeracao_veiculo_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/numera_o_do_ve_culo"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Horario_Partida_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/hor_rio_de_partida"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/Origem_viagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="12sp"
+                android:text="@string/origem_da_viagem"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Destino_viagem"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/destino_da_viagem"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Numeracao_veiculo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/numera_o_do_ve_culo"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/Horario_Partida"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/hor_rio_de_partida"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.SearchResult.Title"
+                android:textColor="@color/Preto"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

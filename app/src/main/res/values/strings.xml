@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Rota SERGIPE</string>
+    <string name="title_activity_apresentacao_rota">Apresentacao Rota</string>
+    <string-array name="Cidades_Rotas">
+        <item>Aracaju</item>
+        <item>Campo do Brito</item>
+        <item>Itabaiana</item>
+        <item>Ribeiropolis</item>
+        <item>São Domingos</item>
+        <item>Moita Bonita</item>
+        <item>Frei Paulo</item>
+        <item>Macambira</item>
+    </string-array>
+    <string name="title_activity_apresentacao_lista_rotas">ApresentacaoListaRotas</string>
+    <string name="informa_es_da_viagem">Informações da Viagem</string>
+    <string name="numera_o_do_ve_culo">Numeração do Veículo: </string>
+    <string name="destino_da_viagem">Destino da Viagem:</string>
+    <string name="origem_da_viagem">Origem da Viagem:</string>
+    <string name="hor_rio_de_partida">Horário de Partida:</string>
+    <string name="title_activity_main3">Main3Activity</string>
+
+</resources>
